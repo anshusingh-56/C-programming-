@@ -1,0 +1,18 @@
+// Print Hello World
+#include<stdio.h>
+int main()
+{
+    printf("Hello World");
+}
+
+//Sum of two number
+#include <stdio.h>
+
+int main()
+{
+    int a,b ;
+    printf("Enter two number: ");
+    scanf("%d %d", &a, &b );
+    printf("sum = %d", a+b );
+    return 0;
+}
